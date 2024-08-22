@@ -57,6 +57,7 @@ li {
   max-width: 1310px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 15px;
 }
 .container > * {
   padding: 0 10px;
@@ -828,6 +829,9 @@ label {
 
 /* mobile version */
 @media (max-width: 375px) {
+  .container {
+    padding: 0;
+  }
   .header__inner {
     display: none;
   }
@@ -913,7 +917,7 @@ label {
     margin: 0 50px;
   }
   .next-slider-arrow {
-    right: 3%;
+    right: 1%;
   }
   .back-slider-arrow {
     left: 7%;
