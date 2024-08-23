@@ -846,7 +846,8 @@ label {
     margin-top: 85px;
   }
   .intro__inner {
-    background: url(../img/intro/mobile/intro-mobile-bg.jpg) no-repeat center;
+    background: url(../img/intro/mobile/intro-mobile-bg.jpg)  no-repeat center;
+    background-size: cover;
     height: 388px;
   }
   .intro__inner-title {
