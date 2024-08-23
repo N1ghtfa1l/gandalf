@@ -786,7 +786,7 @@ label {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: white; /* Белая точка внутри радиокнопки */
+  background: white;
 }
 .form-btns {
   font-size: 18px;
@@ -828,7 +828,7 @@ label {
 /* ------------------- */
 
 /* mobile version */
-@media (max-width: 430px) {
+@media (max-width: 1300px) {
   .container {
     padding: 0;
   }
@@ -846,9 +846,12 @@ label {
     margin-top: 85px;
   }
   .intro__inner {
-    background: url(../img/intro/mobile/intro-mobile-bg.jpg)  no-repeat center;
+    background: url(../img/intro/mobile/intro-mobile-bg.jpg) no-repeat center;
     background-size: cover;
     height: 388px;
+  }
+  .info__content {
+    margin: 0 auto;
   }
   .intro__inner-title {
     font-size: 24px;
@@ -902,7 +905,7 @@ label {
     font-size: 28px;
   }
   .progress__inner-content {
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 20px 0;
   }
 
