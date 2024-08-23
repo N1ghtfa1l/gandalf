@@ -828,7 +828,7 @@ label {
 /* ------------------- */
 
 /* mobile version */
-@media (max-width: 375px) {
+@media (max-width: 430px) {
   .container {
     padding: 0;
   }
